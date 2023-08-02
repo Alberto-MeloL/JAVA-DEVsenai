@@ -65,4 +65,12 @@ public class ExemploTryCatch {
             }
         }
     }
+
+    public void test() {
+        String s1 = "Olá";
+        String s2 = "Bem-Vindo";
+        s1 = s2;
+        System.out.println("s1:" +s1);
+         System.out.println("s2:" +s2);
+    }
 }
