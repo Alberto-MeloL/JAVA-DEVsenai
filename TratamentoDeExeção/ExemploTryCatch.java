@@ -53,13 +53,13 @@ public class ExemploTryCatch {
                 } else {
                     corrija = false;
                 }
-            } catch (NumberFormatException e) {
+            } catch (NumberFormatException e01) {//identificação de erros (e01, 02, 03)
                 JOptionPane.showMessageDialog(null, "ERRO - Valor "
                         + "digitado não é um número inteiro!");
-            } catch (ArithmeticException e) {
+            } catch (ArithmeticException e02) {
                 JOptionPane.showMessageDialog(null, "ERRO - Aritmético "
                         + "Não Dividirás por Zero!!!");
-            } catch (Exception e) {
+            } catch (Exception e03) { //sempre por último esse (Exception)
                 // TODO: handle exception
                 JOptionPane.showMessageDialog(null, "ERRO - Valor");
             }
@@ -74,3 +74,6 @@ public class ExemploTryCatch {
          System.out.println("s2:" +s2);
     }
 }
+//exceção de lógica e externa
+//sempre que vou trabalhar com arquivos externos, sempre tenho que criar uma conexão(não estou usando fecha)
+//boa prática em banco de dados(faz a consulta conecta, terminou finalizo a conexão)
