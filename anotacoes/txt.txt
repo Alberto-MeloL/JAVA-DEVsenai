@@ -35,3 +35,16 @@ JOptionPane.showMessageDialog(null, e.getMessage(), "login", 0);
 
 senha != dataNascimento
 senha deve conter caracteres A, a
+
+=================
+ver parte teórica
+
+_________________________________________________________
+Ex:
+int vetor[] = new int[10];
+vetor[i] = x;
+ArrayList<Integer> vetor 2 = new ArrayList;
+vetor.add(x);
+o ArrayList é uma classe, o add é um método.
+_________________________________________________________
+criar uma classe onde o objetivo é criar o método add
