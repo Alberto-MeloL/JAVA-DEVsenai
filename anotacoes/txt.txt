@@ -48,3 +48,53 @@ vetor.add(x);
 o ArrayList é uma classe, o add é um método.
 _________________________________________________________
 criar uma classe onde o objetivo é criar o método add
+ // Atributos
+    //int cont;
+    // Métodos
+    //public void add() 
+      //  cont++;
+        // criar um vetor +1 posição
+//int vetor[] = new int[cont];
+        // o vetor anterior copiado
+
+        teste
+        package ArrayList;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class CriandoArrays {
+  public static void main(String[] args) {
+    Scanner ler = new Scanner(System.in);
+    ArrayList<String> contatosZap = new ArrayList();
+        contatosZap.add("João");
+        int i;
+        System.out.println("Percorrendo o ArrayList");
+        int n = contatosZap.size();
+        for (i=0; i<n; i++) {
+            System.out.printf("Posição", i, contatosZap.get(i));
+        }
+        System.out.println("Informe a posição a ser excluída");
+        i = ler.nextInt();
+
+        try {
+            contatosZap.remove(i);
+        } catch (Exception e) {
+            
+        }
+  }
+        
+    }
+
+    estudar em casa
+ int cont = 0;
+    int v1[] = new int[cont];
+    int v2[] = new int[cont + 1];
+    public void add (int add) {
+        for (int i = 0; i < v1.length; i++) {
+            v2[i] = v1[i];
+        }
+        v2[v2.length-1] = add;
+    
+  }
