@@ -69,19 +69,14 @@ public class CriandoArrays {
         int i;
         System.out.println("Digite o nome de seu contato:\n");
         nome = ler.next();
+
         System.out.println("Digite o dia que foi adicionado:\n");
         dia = ler.nextInt();
         contatosZap.add(nome);
+        
         System.out.printf("Adicionado", contatosZap.get(i));
         // ontatosZap.add("João");
-        int i;
-        System.out.println("Percorrendo o ArrayList");
-        System.out.printf("O contato %s foi adicionado dia %s ", nome, dia);
-        System.out.println("Informe a posição a ser excluída");
-        i = ler.nextInt();
-        System.out.println("Exclua seu contato");
-        i = ler.nextInt();
-        i--;
+        
     }
 
 }
