@@ -7,7 +7,7 @@ import javax.swing.JOptionPane;
 public class ExemploArrayList {
     public void cars() {
         ArrayList<String> carros = new ArrayList<>();
-        Scanner head = new Scanner(System.in);
+        //Scanner head = new Scanner(System.in);
         carros.add("Fusca");
         carros.add("Brasília");
         carros.add("Chevette");
@@ -28,7 +28,7 @@ public class ExemploArrayList {
         }
 
         System.out.println("Enter a car to delete");
-        i = head.nextInt();
+      //  i = head.nextInt();
 
         try {
             // [ D ] remove o i-ésimo contato da agenda

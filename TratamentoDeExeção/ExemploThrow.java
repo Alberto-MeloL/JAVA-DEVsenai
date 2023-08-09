@@ -1,7 +1,5 @@
 package TratamentoDeExeção;
-
-import java.io.EOFException;
-
+//javautil, javax
 import javax.swing.JOptionPane;
 
 public class ExemploThrow {
