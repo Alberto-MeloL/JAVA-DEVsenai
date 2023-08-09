@@ -1,6 +1,6 @@
 package TratamentoDeExeção;
 
-import java.util.Scanner;
+import java.util.*;
 
 import javax.swing.JOptionPane;
 
