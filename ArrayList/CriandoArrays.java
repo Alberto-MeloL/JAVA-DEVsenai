@@ -58,25 +58,25 @@ public class CriandoArrays {
         }
     }
 
-    public void teste01() {
-        Scanner ler = new Scanner(System.in);
+    //public void teste01() {
+       // Scanner ler = new Scanner(System.in);
 
-        ArrayList<String> contatosZap = new ArrayList();
+       //ArrayList<String> contatosZap = new ArrayList();
 
-        String nome;
-        int dia;
+        //String nome;
+        //int dia;
 
-        int i;
-        System.out.println("Digite o nome de seu contato:\n");
-        nome = ler.next();
+        //int i;
+        //System.out.println("Digite o nome de seu contato:\n");
+        //nome = ler.next();
 
-        System.out.println("Digite o dia que foi adicionado:\n");
-        dia = ler.nextInt();
-        contatosZap.add(nome);
+        //System.out.println("Digite o dia que foi adicionado:\n");
+       // dia = ler.nextInt();
+        //contatosZap.add(nome);
         
-        System.out.printf("Adicionado", contatosZap.get(i));
+       // System.out.printf("Adicionado", contatosZap.get(i));
         // ontatosZap.add("João");
         
     }
 
-}
+

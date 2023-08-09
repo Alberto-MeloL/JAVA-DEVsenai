@@ -98,3 +98,8 @@ public class CriandoArrays {
         v2[v2.length-1] = add;
     
   }
+
+  att criar outro void
+
+nome ex1
+criar um arraylist de numeros inteiros escrever 5 numeros aleatorios e ordenar e imprimir
