@@ -103,3 +103,16 @@ public class CriandoArrays {
 
 nome ex1
 criar um arraylist de numeros inteiros escrever 5 numeros aleatorios e ordenar e imprimir
+
+   public void cadastro(){
+Scanner ler = new Scanner(System.in);
+String nomeMarca;
+String nomeCarro;
+String carroAno;
+String corCarro;
+
+JOptionPane.showMessageDialog(null, "Digite a marca do carro");
+nomeMarca =ler.next();
+setMarca(nomeMarca);
+listaCarros[Carros].se
+    }
