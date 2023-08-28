@@ -12,6 +12,13 @@ public class ExemploFlowLayout {
     janela1.add(texto1);
     janela1.add(painel1);
     janela1.add(botao1);
+    botao1.addActionListener(e ->{
+int quant = Integer.parseInt(painel1.getText());
+for (int i = 0; i < quant; i++) {
+   janela1.add(new JButton(""+i+1));
+   janela1.pack();
+}
+    });
     janela1.setDefaultCloseOperation(2);
     janela1.pack();
     janela1.setVisible(true);
