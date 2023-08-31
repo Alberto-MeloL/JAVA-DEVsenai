@@ -3,7 +3,8 @@ public class App {
         /*new AWTFrameExemplo();//Rodando o construtor da classe
         new GUISwingJFrameExemplo();
         new GUISwingJOptionPaneExemplo();
-        new JFrameUtilizando();*/
-        new ContainerComponentes();
+        
+        new ContainerComponentes();*/
+        new JFrameUtilizando();
     }
 }

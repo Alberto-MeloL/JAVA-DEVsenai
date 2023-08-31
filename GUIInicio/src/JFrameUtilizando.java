@@ -15,7 +15,7 @@ public class JFrameUtilizando extends JFrame {
 
         // Adicionando componentes
 
-        for (int i = 0; i < 6; i++) {
+        for (int i = 0; i < 10; i++) {
             this.add(new JButton("" + i));
         }
         this.add(new JTextField("Meus Testos", 15));
