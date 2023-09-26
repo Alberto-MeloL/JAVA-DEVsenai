@@ -8,7 +8,7 @@ import javax.swing.JTextField;
 public class Calculadora1 extends JPanel {
     public Calculadora1() {
         super();
-        GridLayout layout = new GridLayout(3, 3);
+        GridLayout layout = new GridLayout(3,2 );
         this.add(new JLabel("Calculadora3"));
         this.setLayout(layout);
 
