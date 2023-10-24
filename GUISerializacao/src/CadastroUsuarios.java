@@ -10,21 +10,21 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CadastroUsuarios extends JFrame {
+public class CadastroUsuarios extends JPanel {
     private JTextField inputNome;
     private JTextField inputIdade;
     private DefaultTableModel tableModel;
     private JTable table;
     private List<Usuarios> usuarios = new ArrayList<>();
     private int linhaSelecionada = -1;
-    //cores
+    // cores
     private Color corVerdeClara = new Color(144, 238, 144);
 
     public CadastroUsuarios() {
-        setTitle("Cadastro de Usuários");
+        //setTitle("Cadastro de Usuários");
         setSize(600, 300);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setLocationRelativeTo(null);
+       // setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        //setLocationRelativeTo(null);
         tableModel = new DefaultTableModel();
         tableModel.addColumn("Nome");
         tableModel.addColumn("Idade");
@@ -53,7 +53,7 @@ public class CadastroUsuarios extends JFrame {
         inputPanel.add(agendarConsultaBtn);
         this.add(consulta);
         consulta.setVisible(false);
-        consulta.setBounds(700, 600,600,300);
+        consulta.setBounds(700, 600, 600, 300);
 
         setLayout(new BorderLayout());
         add(inputPanel, BorderLayout.NORTH);
@@ -109,15 +109,15 @@ public class CadastroUsuarios extends JFrame {
                 operacoes.salvarUsuarios();
             }
         });
-agendarConsultaBtn.addMouseListener(new MouseAdapter() {
-    
-    @Override
-    public void mouseClicked(MouseEvent e){
-       if (e.getClickCount() == 1) {
-        consulta.setVisible(true);
-       }
-    }
-});
+        agendarConsultaBtn.addMouseListener(new MouseAdapter() {
+
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                if (e.getClickCount() == 1) {
+                    consulta.setVisible(true);
+                }
+            }
+        });
     }
 
     private void atualizarTabela() {
@@ -126,7 +126,8 @@ agendarConsultaBtn.addMouseListener(new MouseAdapter() {
             tableModel.addRow(new Object[] { usuario.getNome(), usuario.getIdade() });
         }
     }
-     public void run(){
+
+    public void run() {
         this.setVisible(true);
     }
 }
