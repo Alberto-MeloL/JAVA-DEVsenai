@@ -21,10 +21,10 @@ public class CadastroUsuarios extends JPanel {
     private Color corVerdeClara = new Color(144, 238, 144);
 
     public CadastroUsuarios() {
-        //setTitle("Cadastro de Usuários");
+        // setTitle("Cadastro de Usuários");
         setSize(600, 300);
-       // setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        //setLocationRelativeTo(null);
+        // setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        // setLocationRelativeTo(null);
         tableModel = new DefaultTableModel();
         tableModel.addColumn("Nome");
         tableModel.addColumn("Idade");
