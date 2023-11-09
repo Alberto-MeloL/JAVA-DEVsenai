@@ -7,7 +7,10 @@ import java.sql.PreparedStatement;
 /**
  * ConnectionFactory
  */
-public class ConnectionFactory {
+public class ConnectionFactory {//Polomorfismo de métodos
+    //DAO napasta connection
+    //Statement do sql
+
 
     // Atributos
 
